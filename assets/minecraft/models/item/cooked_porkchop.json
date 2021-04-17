@@ -1,0 +1,11 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/cooked_porkchop"
+    },
+
+    "overrides": [
+  		{ "predicate": {"custom_model_data": 2}, "model": "item/cheese"},
+        { "predicate": {"custom_model_data": 11}, "model": "item/hot_dog"}
+ ]
+}
